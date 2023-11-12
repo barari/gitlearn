@@ -1,0 +1,55 @@
+1) Create Folder (MD)
+2) git init
+3) git status
+4) git add file01.html
+5) git add [-A|filename|*.html] 
+
+5-1) git reset [filename]
+5-2) git reset ==> all
+5-3) git diff [filename]
+5-4) git diff --staged ==> show diff after add file 
+5-5) git checkout -- [Filename]
+5-6) git rm [filename]
+6) git commit -m 'Comments'
+
+
+
+7) git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+
+7-1) git config --global user.email
+7-2) git config --global user.name
+7-3) git config --list
+
+8) git log
+8-1) git show ==> last show commit
+8-2) git show [HashLog]
+
+9) git reset file3.html
+10) git checkout -- file3.html
+
+11) git clone "Address GitHub.com/Dir1"
+
+
+git branch
+--------------
+1) git branch
+2) git branch [DirName] ==> make new branck
+3) git branch -d [DirName] ==> delete branck
+4) git checkout [DirName] ==> switching branch
+5) git merge [DirName]
+
+
+git tag
+-----------------
+1) git tag 
+2) git tag -a "v1.2" -m "Message"
+3) git tag -a "v1.4" [HashLog]
+
+
+
+
+
+
+
+
